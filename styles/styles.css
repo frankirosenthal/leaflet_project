@@ -1,0 +1,66 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+#pageone {
+  background: linear-gradient(to bottom, #0099ff 0%, #ccffff 100%);
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+}
+
+#pagetwo {
+  background: linear-gradient(to bottom, #ff9999 0%, #ff5050 100%);;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+#mapid {
+  height: 500px;
+  width: 100%;
+  border: 1px solid #999;
+}
+
+#mapidtwo {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #999;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 640px;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 0.5rem;
+  font-size: 30px;
+}
+
+#information, #informationtwo {
+  margin: 1rem;
+  text-align: center;
+}
+
+#end {
+  padding: 0;
+  margin: 0 2rem 0 2rem;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 630px) {
+  h1 {
+    text-align: center;
+  }
+}
